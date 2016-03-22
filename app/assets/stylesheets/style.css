@@ -314,7 +314,7 @@ header .intro-text .intro-heading {
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 25px;
-	margin: 20px 100px 60px 100px;
+	margin: 0px 100px 60px 100px;
 }
 
 /*--------------------
@@ -325,7 +325,7 @@ header .intro-text .intro-heading {
 	font-weight: 500;
 	font-size: 19px;
 	text-transform: uppercase;
-	color: #000000;
+	color: #ffffff;
 	letter-spacing: 2px;
 	margin-bottom: 20px;
 }
@@ -342,8 +342,8 @@ header .intro-text .intro-heading {
 }
 
 .ot-circle {
-	height: 95px;
-	width: 95px;
+	height: 105px;
+	width: 105px;
 	text-align: center;
 	line-height: 98px;
 	color: #FFFFFF;
