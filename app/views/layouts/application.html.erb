@@ -6,10 +6,21 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
-<%= yield %>
 
+<%= yield %>
+<%= javascript_include_tag "jquery" %>
+<%= javascript_include_tag "typed" %>
+<script>
+    $(function(){
+        $(".element").typed({
+            strings: ["Australia's first law school hackathon"],
+            typeSpeed: 0
+        });
+    });
+</script>
 </body>
 </html>
