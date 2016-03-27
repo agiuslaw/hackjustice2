@@ -6,14 +6,15 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 
 </head>
 <body>
 
 
 <%= yield %>
-<%= javascript_include_tag "jquery" %>
-<%= javascript_include_tag "typed" %>
+
 <%= javascript_include_tag "application" %>
 <%= javascript_include_tag "bootstrap.min" %>
 <%= javascript_include_tag "cbpAnimatedHeader" %>
@@ -22,6 +23,8 @@
 <%= javascript_include_tag "npm" %>
 <%= javascript_include_tag "owl.carousel.min" %>
 <%= javascript_include_tag "SmoothScroll.min" %>
+<%= javascript_include_tag "jquery" %>
+<%= javascript_include_tag "typed" %>
 <script>
     $(function(){
         $(".element").typed({
@@ -31,6 +34,5 @@
         });
     });
 </script>
-
 </body>
 </html>

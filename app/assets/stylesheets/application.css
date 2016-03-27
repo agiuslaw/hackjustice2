@@ -15,6 +15,29 @@
 *= require_tree .
  */
 
+ .light-bg .section-text {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+ 	font-size: 30px;
+  font-weight: bold;
+ }
+
+.light-bg h2{
+  text-transform: uppercase;
+  color: #790b6b;
+  font-family: 'Roboto', sans-serif;
+ 	font-size: 40px;
+  font-weight: bold;
+}
+
+.light-bg p{
+  color: #790b6b;
+  text-transform: none;
+  font-family: 'Roboto', sans-serif;
+ 	font-size: 19px;
+  font-weight: 400;;
+}
+
  .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
