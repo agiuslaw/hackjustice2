@@ -172,7 +172,7 @@ section ul li:before {
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
-	text-transform: uppercase;
+	text-transform: uppercase;;
 	font-weight: bold;
 	letter-spacing: 1px;
 	color:#790b6b;
@@ -582,7 +582,7 @@ figure.effect-bubba:hover p {
 }
 
 .partner-logo {
-	height: 80px;
+	height: 150px;
 	text-align: center;
 	display: inline-block;
 }
@@ -623,7 +623,9 @@ figure.effect-bubba:hover p {
 
 .team-item {
 	text-align: center;
-	background-color: #fff;
+	background-color: none;
+	padding: 30px;
+	height: 300px;
 }
 
 .team-item h3 {
@@ -636,7 +638,7 @@ figure.effect-bubba:hover p {
 .team-item .team-position {
 	color: #989898;
 	font-size: 12px;
-	margin: 15px 0 10px;
+	margin: 0px 0 0px;
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 2px;
@@ -646,7 +648,6 @@ figure.effect-bubba:hover p {
     font-size: 13px;
     font-weight: 400;
     color: #292929;
-    padding: 5px 10px 20px 10px;
 }
 
 /*--------------------
