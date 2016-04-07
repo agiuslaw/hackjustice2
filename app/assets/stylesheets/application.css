@@ -23,7 +23,8 @@
 	text-align: center;
 	background-color: none;
 	padding: 30px;
-	height: 100px;
+	height: 0px;
+  margin-bottom: 20px;
 }
 
 .team-image {
@@ -40,10 +41,11 @@ padding: 20px;
 
 .team-image-small {
 text-align: center;
-height: 100px;
+height: 0px;
 width: 200px;
 position: relative;
-margin-bottom: 10px
+margin-bottom: 10px;
+margin-top: 20px;
 }
 
 
