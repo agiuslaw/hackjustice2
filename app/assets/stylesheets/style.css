@@ -524,7 +524,7 @@ figure.effect-bubba:hover p {
 .dark-bg {
 	background-color: #790b6b;
 	color: #fff;
-	padding-top: 20px
+	padding-bottom: 20px;
 }
 
 .short-section {
@@ -627,19 +627,24 @@ figure.effect-bubba:hover p {
 4.6. Team
 --------------------*/
 
+
 .team-item {
 	text-align: center;
 	background-color: none;
 	padding: 30px;
 	height: 300px;
+	margin-bottom: 4em;
 }
+
 
 .team-item h3 {
 	font-size: 16px;
 	font-weight: 800;
 	text-transform: uppercase;
 	color: #2D2D2D;
+	padding-top: 20px;
 }
+
 
 .team-item .team-position {
 	color: #989898;

@@ -19,6 +19,34 @@
 *= require_tree .
 */
 
+.team-item-small {
+	text-align: center;
+	background-color: none;
+	padding: 30px;
+	height: 100px;
+}
+
+.team-image {
+text-align: center;
+height: 300px;
+width: 300px;
+position: relative;
+padding: 20px;
+}
+
+.bottom{
+  margin-top: 50px;
+}
+
+.team-image-small {
+text-align: center;
+height: 100px;
+width: 200px;
+position: relative;
+margin-bottom: 10px
+}
+
+
 .overlay {
    background:transparent;
    position:relative;
