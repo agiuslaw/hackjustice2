@@ -71,7 +71,7 @@ p {
 }
 
 .dark-bg p {
-color: #B1B1B1;
+color: #790b6b;
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -148,12 +148,12 @@ section ul li:before {
 .navbar-default .navbar-brand {
 	color: #790b6b;
 	font-family: "Roboto", sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	text-transform: uppercase;
-	padding-top: 25px;
- 	padding-right: 50px;
- 	padding-bottom: 10px;
- 	padding-left: 0px;
+	/*vertical-align: middle;*/
+
+	/*font-size: 2em;*/
+
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
 	color: #fec503
@@ -305,14 +305,17 @@ header .intro-text .intro-heading {
 	color: #5D5D5D;
 	letter-spacing: -0.6px;
 	position: relative;
-	margin-bottom: 20px;
-	padding-bottom: 0px;
+	padding: 30px;
 }
+
+.section-title h5 {
+		padding: 30px;
+	}
 
 .section-title h2:after {
 	left: 50%;
 	z-index: 1;
-	width: 40px;
+	width: 30px;
 	height: 2px;
 	content: " ";
 	bottom: -20px;
@@ -332,7 +335,7 @@ header .intro-text .intro-heading {
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 25px;
-	margin: 20px 100px 60px 100px;
+ 	padding: 40px;
 }
 
 /*--------------------
@@ -345,6 +348,7 @@ header .intro-text .intro-heading {
 	text-transform: uppercase;
 	color: #000000;
 	letter-spacing: 2px;
+	padding: 10px;
 }
 
 .dark-bg .mz-module-about h3 {
@@ -627,6 +631,9 @@ figure.effect-bubba:hover p {
 4.6. Team
 --------------------*/
 
+.team-container {
+	margin-bottom: 50px;
+}
 
 .team-item {
 	text-align: center;
@@ -771,18 +778,19 @@ font-size: 11px;
 --------------------*/
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
-	color: #fff;
-	background-color: #fec503;
+	color: #790b6b;
+	background-color: #fed136;
 	border-color: #f6bf01;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
-	color: #fff;
-	background-color: #fec503;
+	color: #790b6b;
+	background-color: #fed136;
 	border-color: #f6bf01;
 }
 
 .btn {
+	color: #fed136;
 	display: inline-block;
 	padding: 8px 20px;
 	margin-bottom: 0;
@@ -802,7 +810,7 @@ font-size: 11px;
 	background-image: none;
 	border: 1px solid transparent;
 	border-radius: 4px;
-	background-color: #23AD21;
+	background-color: #790b6b;
 }
 
 /*purple #790b6b*/
