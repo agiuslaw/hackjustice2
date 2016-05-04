@@ -36,6 +36,8 @@
 	padding: 30px;
 	height: 0px;
   margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 .team-image {
@@ -44,6 +46,8 @@ height: 300px;
 width: 300px;
 position: relative;
 padding: 20px;
+display: flex;
+justify-content: center;
 }
 
 .bottom{
@@ -52,11 +56,13 @@ padding: 20px;
 
 .team-image-small {
 text-align: center;
-height: 0px;
+height: 60px;
 width: 200px;
-position: relative;
+
 margin-bottom: 10px;
 margin-top: 20px;
+display: flex;
+justify-content: center;
 }
 
 
@@ -113,9 +119,11 @@ margin-bottom: 20px;
 padding-bottom: 0px;
 }
 
- .team-image
- {height: 200px;
-   width: auto;
+ .team-image {
+	 height: 200px;
+   width: inherit;
+	 display: flex;
+	 justify-content: center;
 }
 
  .light-bg .section-text {
