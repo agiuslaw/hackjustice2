@@ -17,6 +17,7 @@
 //= require typed
 //= require main
 //= require modernizr
+//= require mooz.themes.scripts
 //= require_tree .
 
 
@@ -27,9 +28,3 @@ $.fn.scrollView = function () {
         }, 1000);
     });
 }
-
-$(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
-        $(this).collapse('hide');
-    }
-});
