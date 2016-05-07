@@ -91,11 +91,17 @@ $('.owl-portfolio').owlCarousel({
   });
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
+//$('.navbar-collapse ul li a').click(function() {
+  //  $('.navbar-toggle:visible').click();
+//});
 
-$(function() {    
+$(function () {
+            $('.navbar-collapse ul li a:not(.dropdown-toggle)').bind('click touchstart', function () {
+                    $('.navbar-toggle:visible').click();
+            });
+    });
+
+$(function() {
     $('.stats-bar').appear();
     $('.stats-bar').on('appear', function() {
     var fx = function fx() {
@@ -122,7 +128,7 @@ $(function() {
         });
     });
     };
-    
+
     var reset = function reset() {
         console.log($(this).scrollTop())
         if ($(this).scrollTop() > 90) {
@@ -130,7 +136,7 @@ $(function() {
           fx()
         }
     };
-    
+
     $(window).on("scroll", reset);
 });
     });
