@@ -145,21 +145,14 @@ header h1 {
   border-radius: 50%;
   box-shadow: 0 0 0 4px #fed136, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
-.cd-timeline-img img {
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+
 }
 .cd-timeline-img.cd-picture {
   background: #790b6b;
 }
 .cd-timeline-img.cd-movie {
   background: #790b6b;
+
 }
 .cd-timeline-img.cd-location {
   background: #790b6b;
@@ -279,6 +272,7 @@ header h1 {
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
   background-color: #790b5a;
+  color: #fed136;
 }
 .cd-timeline-content .cd-date {
   float: left;

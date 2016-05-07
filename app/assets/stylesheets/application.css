@@ -120,7 +120,7 @@ padding-bottom: 0px;
 }
 
  .team-image {
-	 height: 200px;
+	 height: 175px;
    width: inherit;
 	 display: flex;
 	 justify-content: center;
@@ -276,4 +276,38 @@ padding-bottom: 0px;
 .registeredtext{
 	color: #790b6b;
 	font-size: 30px;
+}
+
+.simple_form div.input {
+  margin-bottom: 10px;
+	display: inline-block; /* Required for Webkit, but not for Gecko */
+}
+
+.row .simple_form_row {
+	margin-bottom: 10px;
+	display: inline;
+}
+
+input.radio {
+  margin-right: 5px;
+  vertical-align: -3px;
+}
+
+.simple_form label {
+
+	color: #790b6b;
+	float: left;
+	width: 100px;
+}
+
+.radio_buttons.required{
+	margin-right: 10px;
+}
+
+.check_boxes.required.inline{
+	margin-right: 10px;
+}
+
+.string.required.form-control{
+	width: 300px;
 }
