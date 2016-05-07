@@ -311,3 +311,7 @@ input.radio {
 .string.required.form-control{
 	width: 300px;
 }
+
+.imageonetimeline{
+	float: right;
+}

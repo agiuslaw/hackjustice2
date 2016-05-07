@@ -253,7 +253,7 @@ header h1 {
   font-size: 20px;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 14px;
+  font-size: 16px;
   color: #fed136;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
@@ -298,7 +298,7 @@ header h1 {
   }
 
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -321,7 +321,8 @@ header h1 {
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
+    font-size: 20px;
+    color: #fed136;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
