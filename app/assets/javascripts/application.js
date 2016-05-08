@@ -18,5 +18,4 @@
 //= require typed
 //= require main
 //= require modernizr
-//= require mooz.themes.scripts
 //= require_tree .
