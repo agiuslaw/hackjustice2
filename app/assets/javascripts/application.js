@@ -11,11 +11,13 @@
 // about supported directives.
 //
 
+
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require typed
 //= require main
 //= require modernizr
+//= mooz.themes.scripts
 //= require bootstrap.min
 //= require_tree .
