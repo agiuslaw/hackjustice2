@@ -91,8 +91,8 @@ $('.owl-portfolio').owlCarousel({
   });
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+$('.bs-example-navbar-collapse-1').click(function() {
+    $('.bs-example-navbar-collapse-1').click();
 });
 
 $(function() {
