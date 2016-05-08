@@ -11,11 +11,11 @@
 // about supported directives.
 //
 
-//= require bootstrap.min
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require typed
 //= require main
 //= require modernizr
+//= require bootstrap.min
 //= require_tree .
