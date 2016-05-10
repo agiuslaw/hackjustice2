@@ -340,8 +340,17 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 .fa-facebook-square {
 	color: #790b6b;
+
+}
+
+.fa-facebook-square:hover{
+		color: #fed136;
 }
 
 .fa-twitter-square {
-	color: #790b6b
+	color: #790b6b;
+}
+
+.fa-twitter-square:hover{
+	color: #fed136;
 }
