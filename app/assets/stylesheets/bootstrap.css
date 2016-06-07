@@ -1335,9 +1335,6 @@ mark {
 .text-muted {
     color: #777
 }
-.text-primary {
-    color: #337ab7
-}
 a.text-primary:focus,
 a.text-primary:hover {
     color: #286090
