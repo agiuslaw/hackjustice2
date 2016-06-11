@@ -362,3 +362,12 @@ only screen and (min-device-pixel-ratio: 1.5){
 .fa-stack-1x{
 	background-color: #fed136;
 }
+
+.lowered{
+	padding-top: 2em;
+	position: relative;
+}
+
+.zapier{
+	position: relative;
+}
