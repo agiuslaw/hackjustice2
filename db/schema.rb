@@ -20,11 +20,11 @@ ActiveRecord::Schema.define(version: 20170402072018) do
     t.string   "shirtsize"
     t.string   "designation"
     t.string   "thoughts"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.string   "degree"
     t.string   "university"
     t.string   "terms"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
   end
 
 end
