@@ -24,6 +24,10 @@
 	color: #790b6b;
 }
 
+.team-text h4{
+	color: #000000;
+}
+
 
 .customtitle h3{
 	font-weight: 300;
@@ -380,4 +384,8 @@ position: relative;
 
 .team-container{
 	margin-bottom: 150px;
+}
+
+.tlf {
+	height: 150px !important;
 }

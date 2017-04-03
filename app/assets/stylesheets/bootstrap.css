@@ -4416,7 +4416,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 @media (min-width: 768px) {
     .navbar>.container .navbar-brand,
     .navbar>.container-fluid .navbar-brand {
-        margin-left: -15px
+        margin-left: -15px;
+        margin-top: 5px;
     }
 }
 .navbar-toggle {
@@ -6856,4 +6857,9 @@ button.close {
     .hidden-print {
         display: none!important
     }
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+    padding-top: 0px;
 }

@@ -21,22 +21,37 @@
         </div>
         <div class="row simple_form_row">
           <center><div class="col-xs-12">
-            <%= f.input :shirtsize, as: :radio_buttons, collection: ['Small', 'Medium', "Large"], hint: '<br><br>You may or may not receive a cool tshirt'.html_safe, required: "true" %>
+            <%= f.input :university, placeholder: "University of Skills to Pay the Bills", required: "true" %>
           </div></center>
         </div>
         <div class="row simple_form_row">
           <center><div class="col-xs-12">
-            <%= f.input :designation, as: :radio_buttons, :item_wrapper_class => 'inline', collection: ['Legal Eagle', 'Tech King', 'Hustle Hero'], hint: "<br><br><strong>Legal Eagle</strong> - You are a legal mind and love the law<br> <strong>Tech King</strong> - Technology is your weapon<br><strong>Hustle Hero</strong> - You like to get things done".html_safe, required: "true", input_html: { class: 'inline'} %>
+            <%= f.input :degree, placeholder: "Bachelor of Hacking", required: "true" %>
           </div></center>
         </div>
         <div class="row simple_form_row">
           <center><div class="col-xs-12">
-            <%= f.input :thoughts, placeholder: "HackJustice sounds rather sinister", hint: "<br>A space for you to share your thoughts about hackathon or anything technology and law...or both!".html_safe, required: "true" %>
+            <%= f.input :shirtsize, as: :radio_buttons, collection: ['Small', 'Medium', "Large"], hint: '<br>You may or may not receive a cool tshirt'.html_safe, required: "true" %>
+          </div></center>
+        </div>
+        <div class="row simple_form_row">
+          <center><div class="col-xs-12">
+            <%= f.input :designation, as: :radio_buttons, :item_wrapper_class => 'inline', collection: ['Legal Eagle', 'Tech Magician', 'Hustle Hero', 'Design Jammer'], hint: "<br><strong>Legal Eagle</strong> - You are a legal mind and love the law<br> <strong>Tech King</strong> - Technology is your weapon<br><strong>Hustle Hero</strong> - You like to get things done<br><strong>Design Jammer</strong> - You make things look and feel good".html_safe, required: "true", input_html: { class: 'inline'} %>
+          </div></center>
+        </div>
+        <div class="row simple_form_row">
+          <center><div class="col-xs-12">
+            <%= f.input :thoughts, placeholder: "HackJustice sounds rather sinister", hint: "<br>A space for you to share your thoughts about hackathon or anything technology and law...or both!<br><br><strong>Do you agree to our Terms & Conditions & Code of Conduct</strong>".html_safe, required: "true" %>
+          </div></center>
+        </div>
+        <div class="row simple_form_row">
+          <center><div class="col-xs-12">
+            <%= f.input :terms, as: :radio_buttons, label: "Consent", collection: ['Yes', 'No'], hint: "<br>Our terms and conditions can be found <a href='' class='cd-read-more' data-toggle='modal' data-target='#Modal-20'>here</a> ".html_safe, required: "true" %>
           </div></center>
         </div>
         <center><div class="form-actions">
           <%= f.button :submit, 'Join Up!' %>
-        </div></center>
+        </div><br><a href="" class="cd-read-more" data-toggle="modal" data-target="#Modal-20">Ts and Cs</a></center>
       </div>
     </div>
   </div>

@@ -7,7 +7,6 @@ class CreateUsers < ActiveRecord::Migration
       t.string :shirtsize
       t.string :designation
       t.string :thoughts
-
       t.timestamps null: false
     end
   end
